@@ -6,3 +6,6 @@ This software runs on an Nvidia Jetson TK1 devkit that has an Axis IP camera att
 
 ### How does it work?
 An algorithm called Optical Flow is used to compare each frame in a video stream to the one before it, and determine the amount of movement that occured in between. By pointing the camera at the ground, it is possible to derive a vector that represents the robot's horizontal motion between two frames.
+
+### Attributions:
+Special thanks go to Atul R. for developing an implementation of the C++ imshow function in Java: https://github.com/master-atul/ImShow-Java-OpenCV
